@@ -1,0 +1,21 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.DIAL" />
+            <data android:scheme="tel" />
+        </intent>
+    </queries>
+
+    <application
+        ...>
+
+
+
+
+
+
+        <key>LSApplicationQueriesSchemes</key>
+        <array>
+            <string>tel</string>
+        </array>
